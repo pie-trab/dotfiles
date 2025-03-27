@@ -1,5 +1,5 @@
 " set relative numbering on lines
- set rnu
+set rnu
 " hilights syntax
 syntax on
 " check for filetype to proper format it
