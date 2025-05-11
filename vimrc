@@ -20,3 +20,5 @@ set termguicolors
 set t_Co=256
 " disable bell sound
 set belloff=all
+" enable smart indent
+set si
