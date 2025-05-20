@@ -22,3 +22,5 @@ set t_Co=256
 set belloff=all
 " enable smart indent
 set si
+" autoreload file if modifies and no local changes are applied
+set autoread
