@@ -1,11 +1,15 @@
+" colorscheme
+if !empty(glob("~/.vim/colors"))
+    colorscheme catppuccin_mocha 
+else
+    colorscheme slate
+endif
 " set relative numbering on lines
 set number relativenumber
 " hilights syntax
 syntax on
 " check for filetype to proper format it
 filetype on
-" colorscheme
-colorscheme catppuccin_mocha 
 " replace tabs with 4 spaces
 filetype plugin indent on
 " show existing tab with 4 spaces width
