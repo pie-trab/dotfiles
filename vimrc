@@ -28,3 +28,9 @@ set belloff=all
 set si
 " autoreload file if modifies and no local changes are applied
 set autoread
+" autoindent
+set autoindent
+" better search highlights
+set incsearch
+" C language indent
+set cindent
