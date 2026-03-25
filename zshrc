@@ -50,5 +50,5 @@ RPROMPT=''
 setopt share_history
 if [ -x "$(command -v fzf)"  ]
 then
-    source /usr/share/fzf/shell/key-binding.zsh
+    source /usr/share/fzf/shell/key-bindings.zsh
 fi
