@@ -2,7 +2,7 @@
 
 SCRIPT_DIR=$(dirname $(readlink -f "$0"))
 
-TEMP="$HOME/repos/dotfiles/fakehome"
+TEMP="$HOME"
 
 confirm() {
     while true; do
