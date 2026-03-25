@@ -1,6 +1,6 @@
 " colorscheme
 if !empty(glob("~/.vim/colors"))
-    colorscheme catppuccin_mocha 
+    colorscheme catppuccin_mocha
 else
     colorscheme slate
 endif
@@ -34,3 +34,6 @@ set autoindent
 set incsearch
 " C language indent
 set cindent
+" highlight extra spaces where not needed
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
