@@ -8,4 +8,5 @@ To setup all the files execute the `setup.sh` script. The script will make shure
 For vim it will be copied the `.vimrc` file and the `.vim/colors` folder with a copy of the [catpuccin](https://github.com/catppuccin/vim) themes for vim. \
 
 ## TODO
-- [ ] Link the catpuccin repo for always updated themes
+- [ ] Find a way to remotely link themes
+- [ ] Use simlink instead of copying stuff
